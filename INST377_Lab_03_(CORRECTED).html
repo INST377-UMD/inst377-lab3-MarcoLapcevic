@@ -1,0 +1,79 @@
+<!--HTML Web Page-->
+<html>
+
+<!-- Tab Title and a seperate external CSS file linked to this HTML script -->
+    <head>
+        <title>INST377 Lab 03 - "Rock, Paper, Scissors, Shoes" Game</title>
+        <link rel="stylesheet" href="INST377_Lab_03_(CORRECTED).css"> 
+    </head>
+
+<!--Body section of entire web page-->
+        <body>
+
+<!--Header section-->
+            <header class="header_and_footer_format">
+                <h1>INST377 Lab 03 - "Rock, Paper, Scissors, Shoes" Game</h1>
+            </header>
+
+
+<!--Navigation section-->
+            <nav id="navigation">
+                <ul>
+                    <a href="https://en.wikipedia.org/wiki/Rock_paper_scissors"><li>Game Rules Wiki</li></a>
+                    <a href="https://www.w3schools.com/html/default.asp"><li>HTML Tutorial</li></a>
+                    <a href="https://testudo.umd.edu/"><li>Testudo UMD, College Park</li></a>
+                </ul>
+            </nav>
+
+<!--"Section"...section-->
+            <section id="section_body">
+                <h2>Please enter and select the following</h2>
+                <form>
+                    <label for="fname">First name:</label>
+                    <input type="text" id="fname" name="fname" required>
+                    <br>
+                    <br>
+
+                    <label for="lname">Last name:</label>
+                    <input type="text" id="lname" name="lname" required>
+                    <br>
+                    <br>
+
+                    <label>Choose your attack:</label>
+                    <select>
+                        <option>Rock</option>
+                        <option>Paper</option>
+                        <option>Scissors</option>
+                    </select>
+                    <br>
+                    <br>
+
+                    <input type="submit">
+
+                </form>
+            </section>
+
+<!--Aside section-->
+            <aside id="aside_body">
+                <h2><u>Game Rules</u></h2>
+                <p><strong>You must choose either rock, paper, or scissors against your opponent.  To add on, 
+                    shoes is not at all used in this game.
+                </strong></p>
+                <p><strong>The combos are as follows:</strong></p>
+                <ul>
+                    <li>Rock beats scissors</li>
+                    <li>Scissors beats paper</li>
+                    <li>Paper beats rock</li>
+                    <li>"Shoes" is omitted from the game</li>
+                </ul>
+            </aside>
+
+
+<!--Footer section-->
+            <footer class="header_and_footer_format">
+                    <p>Copyright of INST377, University of Maryland, College Park</p>
+            </footer>
+
+        </body>
+</html>
+
